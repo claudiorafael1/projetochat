@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>#Notisgameover</title>
+		
+		<!-- JQUERY -->
+		<script src="js/jquery-2.2.1.js"></script>
+		
+		<!-- bootstrap - link cdn -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+		<!-- estilo -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		
+	</head>
+
+	<body>
+	
+	
+		<nav class="navbar navbar-default   navbar-fixed-top "  role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" id="btn_navbar_toggle" >
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#" style="display:none"> #notisgameover</a>
+				</div>
+				
+				
+				<div class="collapse navbar-collapse " id="navbar-collapse-1">
+					<ul class="nav navbar-nav ">
+						<li>
+							
+							<a href="chat" id="exibe_chat" style="display:none">Chat</a>
+						
+						</li>
+						<li>
+							<a href="chat" id="exibe_participantes" style="display:none" >Participantes</a>
+						</li>
+						<li>
+							<a href="#"  target="_blank" id="desenvolvedor"> Sobre o desenvolvedor</a>
+						</li>
+						
+					</ul>
+				</div>
+				
+			</div>
+		</nav>
+	
+		<div class="container">
+            <div class="row conversa" id="conversa">
+				<div class="col-md-1"></div>
+				<div class="col-md-10" id="dialogos">
+
+				</div>	
+				<div class="col-md-1"></div>
+                
+            </div>
+			
+			
+			<div class="panel-body campo-mensagem">
+			  
+				</div>
+              <p class="text-monospace"> <font color="red">Este texto é vermelho! Esse chat foi construido após uma reflexão sobre o setembro amarelo <br>
+                então decidi fazer um chat especifico para isso, pois não é so no mês de alta sobre o a assunto que ele merece ser discutido, e pessoas com depressão não tem depressão somente em setembro.<br>
+                     Para saber mais de mim como desenvolvedor acesse </font> <a href="https://www.linkedin.com/in/rafael-g-19025711a/">aqui</a>                         
+                </p>
+                
+           
+			
+        </div>
+		
+		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+			
+		</nav>		
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="/socket.io/socket.io.js"></script>
+
+				
+		
+	</body>
+</html>
